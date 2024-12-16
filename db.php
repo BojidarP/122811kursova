@@ -2,10 +2,10 @@
 
 try {
    
-    $host = '127.0.0.1';
-    $db   = 'car_rental'; 
-    $user = 'car_rental_user'; 
-    $password = '123456'; 
+    $host = 'sql105.byethost9.com';
+    $db   = 'b9_37928173_car_rental'; 
+    $user = 'b9_37928173'; 
+    $password = 'DDxHDJ@3WKUYiJ8'; 
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
