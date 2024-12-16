@@ -1,10 +1,9 @@
 <?php
 session_start(); 
 
-
 session_unset();  
 session_destroy(); 
 
-header("Location: /kursovasurvurno/?page=login");
-exit(); 
+header("Location: /index.php/?page=login");
+exit();
 ?>
